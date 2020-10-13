@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" type="text/css" href="daniaestilo.css">
+	<title> ENTRA SOLO SI TIENES USUARIO... GRACIAS</title>
+	<script>
+		function comprobarClave(){
+			clave1 = document.f1.clave1.value
+			clave2 = document.f1.clave2.value
+
+
+			if (clave1 == "Dania" && clave2 == "Cast34"){
+			alert("los datos son correctos...\n Pasa adelante");
+			var href ="index.html";
+			window.location=href;
+
+    }
+
+    else{ 
+    	alert("los datos son incorrectos...\n intente nuevamente.");
+    	var href = "contra.html";
+    	window.location=href;
+    };
+
+  }
+</script>
+</head>
+
+<body>
+
+<CENTER>
+<header > <h2 id="encabe">Clinica Oftalmologica
+	<img src="logo.png" width="200" height="100" align="right">
+</header>
+</CENTER>
+	<div id="div1">
+		
+	<header  ><center> <h1>Clinica Castro</h1>   </center></header>
+
+
+</div>
+
+
+
+
+<nav  id="nav1"  >
+
+
+    <ul id="ul1">
+   <h3> VALIDAR SOLO SI EL USUARIO Y CONTRASEÑA SON CORRECTOS</h3>
+   <h5>USUARIO:Dania CLAVE:Cast34</h5>
+	<br>
+	escribe una supuesta contraseña dos veces una en cada campo, y pulsa el boton. JavaScript te dira si las dos son iguales.
+
+
+</ul>   
+</nav> 
+
+
+	
+
+	<br>
+	<form action="" name="f1" style="text-align: center;text-indent: unset; ">
+		INGRESA TU USUARIO: <input type="password" name ="clave1" size="20">
+		<br>
+		INGRESA TU CLAVE:  <input type="password" name ="clave2" size="20">
+		<br>
+		<input type="button" value=" VERIFICAR "  onclick="comprobarClave()  " >
+
+	</form>
+		
+
+    
+ </body>
+ </html>
