@@ -1,0 +1,240 @@
+ form{
+  width:400px;
+  padding:16px;
+  border-radius:10px;
+  margin:auto;
+  background-color:#FF986E;
+}
+
+form label{
+  width:130px;
+  font-weight:bold;
+  display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+  width:180px;
+  padding:3px 10px;
+  border:1px solid #f6f6f6;
+  border-radius:3px;
+  background-color:#f6f6f6;
+  margin:8px 0;
+  display:inline-block;
+}
+form input[type="button"],
+form input[type="submit"]{
+  width:100%;
+  padding:8px 16px;
+  margin-top:32px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:#fff;
+  background-color:#000;
+}
+form input[type="button"]:hover,
+form input[type="submit"]:hover{
+  cursor:pointer;
+  background: #FFC623;
+
+}
+
+ *{
+    background-color: #FFC580;
+    box-sizing: border-box; 
+  }
+
+nav{
+  background-color: black;
+  text-align: center;
+  font-size: 40px;
+
+}
+a{
+  background-color: black;
+  color:white;
+  font-style: oblique;
+}
+
+h1{
+  text-align: center;
+  background-color: #FFC583;
+  font-size: 50px
+  font-style:oblique;
+}
+
+ #aspiraciones{
+  text-align: center;
+ }
+h3{
+    margin-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #FFC583;
+    font-style: oblique;
+}
+h4{
+    margin-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #FFC583;
+    font-style: oblique;
+}
+#cuadro{
+  background-color: #000000;
+  padding: 10px 5px 10px 5px;
+  color:white;
+  float: right;
+  width: 200px
+  }
+#footer{
+  background-color: #000000;
+  color: #9D9A9A;
+
+}
+#lista{
+ background-color: black;
+  text-align: center;
+  font-size: 40px;
+}
+/* RESPONSIVE WORK DEVICE */
+
+.row {
+  width: 100%;
+}
+@media (min-width:992px)
+{
+.col1, .col2, .col3, .col4, .col5, .col6,.col7, .col8, .col9,.col10, .col11, .col12 {
+  float: left; 
+} 
+.col1{
+  width: 8.33%;
+}
+.col2{
+  width: 16.66%;
+}
+.col3{
+  width: 25%;
+}
+.col4{
+  width: 33.33%;
+}
+.col5{
+  width: 41.66%;
+}
+.col6{
+  width: 50%;
+}
+.col7{
+  width: 58.33%;
+}
+.col8{
+  width: 66.66%;
+}
+.col9{
+  width: 74.99%;
+}
+.col10{
+  width: 83.33%;
+}
+.col11{
+  width: 91.66%;
+}
+.col12{
+  width: 100%;
+}
+       
+}
+@media (min-width:768px) and (max-width:991px)
+{
+.coli1, .coli2, .coli3, .coli4, .coli5, .coli6,.coli7, .coli8, .coli9,.coli10, .coli11, .coli12 {
+  float: left; 
+} 
+.coli1{
+  width: 33.33%;
+}
+.coli2{
+  width: 33.33%;
+}
+.coli3{
+  width: 33.33%;
+}
+.coli4{
+  width: 33.33%;
+}
+.coli5{
+  width: 41.66%;
+}
+.coli6{
+  width: 50%;
+}
+.coli7{
+  width: 58.33%;
+}
+.coli8{
+  width: 66.66%;
+}
+.coli9{
+  width: 74.99%;
+}
+.coli10{
+  width: 83.33%;
+}
+.coli11{
+  width: 91.66%;
+}
+.coli12{
+  width: 100%;
+}
+        
+}
+@media (min-width:767px)
+{
+.colp1, .colp2, .colp3, .colp4, .colp5, .colp6,.colp7, .colp8, .colp9,.colp10, .colp11, .colp12 {
+  float: left; 
+} 
+.colp1{
+  width: 100%;
+}
+.colp2{
+  width: 100%;
+}
+.colp3{
+  width: 100%;
+}
+.colp4{
+  width: 33.33%;
+}
+.colp5{
+  width: 41.66%;
+}
+.colp6{
+  width: 50%;
+}
+.colp7{
+  width: 58.33%;
+}
+.colp8{
+  width: 66.66%;
+}
+.colp9{
+  width: 74.99%;
+}
+.colp10{
+  width: 83.33%;
+}
+.colp11{
+  width: 91.66%;
+}
+.colp12{
+  width: 100%;
+}
+#cosita{
+    position: relative;
+}
+
+
+
+         
+}
